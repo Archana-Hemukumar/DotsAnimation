@@ -28,18 +28,21 @@ public class CustomView extends View {
     public CustomView(Context context, AttributeSet attrs) {
         super(context, attrs);
         init();
+        Log.e("tag","message");
     }
 
 
     public CustomView(Context context, AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
         init();
+        Log.e("tag","message");
     }
 
     private void init() {
 
         mPaint = new Paint();
         mPaint.setColor(Color.RED);
+        Log.e("tag","message");
     }
 
     @Override
